@@ -1,0 +1,11 @@
+<script>
+
+function unique(array){
+  let a = [ "1","2","1","2","3",];
+  let unique = a.filter((item,i,ar) => ar.indexOf(item) ===i);
+  return (unique);
+} 
+const data = [1,2,1,2,3];
+document.write(unique(data));
+</script>
+  
